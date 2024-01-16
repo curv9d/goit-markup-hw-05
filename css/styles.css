@@ -550,11 +550,6 @@ button {
     0px 2px 1px 0px rgba(0, 0, 0, 0.20);
 }
 
-.form-icon {
-    position: absolute;
-    left: 16px;
-}
-
 .form-close-button {
     border: 1px solid #8E8F99;
     border-radius: 50%;
