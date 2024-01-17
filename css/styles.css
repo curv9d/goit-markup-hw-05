@@ -582,8 +582,8 @@ button {
     border: none;
 }
 
-.modal-close-button:hover > .modal-close-icon, 
-.modal-close-button:focus > .modal-close-icon {
+.modal-close-button:hover .modal-close-icon, 
+.modal-close-button:focus .modal-close-icon {
     fill: #FFFFFF;
 }
 
