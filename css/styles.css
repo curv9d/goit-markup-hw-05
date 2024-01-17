@@ -576,13 +576,13 @@ button {
     align-items: center;
 }
 
-.modal-close-button:hover
+.modal-close-button:hover,
 .modal-close-button:focus {
     background-color: #404bbf;
     border: none;
 }
 
-.modal-close-button:hover > .modal-close-icon 
+.modal-close-button:hover > .modal-close-icon, 
 .modal-close-button:focus > .modal-close-icon {
     fill: #FFFFFF;
 }
