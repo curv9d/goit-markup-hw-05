@@ -660,9 +660,6 @@ button {
 .textarea::placeholder {
     padding: 8px 0 0 16px;
     color: rgba(46, 47, 66, 0.40);
-    font-size: 12px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
 }
 
 .modal-form-checkbox-container {
