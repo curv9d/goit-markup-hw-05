@@ -745,7 +745,7 @@ button {
     border-color: #4D5AE5;
 }
 
-.modal-form-input:focus .input-icon {
+.modal-form-input:focus + .input-icon {
     fill: #4D5AE5;
 }
 
@@ -804,11 +804,11 @@ button {
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-checkbox-label:checked .checkbox-in-label-span:checked {
-    background-color: #404bbf;
+.checkbox-input:checked + label span {
     fill: #F4F4FD;
+    background-color: #404BBF;
     border: none;
-}
+  }
 
 .modal-form-button {
     display: block;
