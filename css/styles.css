@@ -579,7 +579,6 @@ button {
     color: #FFFFFF;
 }
 
-.footer-form-input:hover,
 .footer-form-input:focus {
     border-color: #4D5AE5;
 }
@@ -616,6 +615,7 @@ button {
 
 
             /* MODAL */
+
 
 .backdrop {
     position: fixed;
@@ -686,3 +686,148 @@ button {
     fill: #FFFFFF;
 }
 
+.modal-text {
+    color: #2E2F42;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+}
+
+.modal-form {
+
+}
+
+.in-modal-form-wrap {
+    margin-bottom: 8px;
+}
+
+.textarea-wrap {
+    margin-bottom: 16px;
+}
+
+.modal-form-label {
+    color: #8E8F99;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    display: block;
+    margin-bottom: 4px;
+}
+
+.modal-input-wrap {
+    position: relative;
+}
+
+.modal-form-input {
+    width: 100%;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    padding-left: 38px;
+    background-color: transparent;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-input:focus {
+    border-color: #4D5AE5;
+}
+
+.input-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+}
+
+.input-icon:focus {
+    fill: #4D5AE5;
+}
+
+.textarea {
+    width: 100%;
+    height: 120px;
+    border-radius: 4px;
+    border: 1px solid rgba(46, 47, 66, 0.40);
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.textarea:focus {
+    border-color: #4D5AE5;
+}
+
+.modal-form-checkbox-wrap {
+    margin-bottom: 24px;
+}
+
+.modal-form-checkbox-label {
+    color: #8E8F99;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+}
+
+.checkbox-label-span-link {
+    color: #4D5AE5;
+    margin-left: 4px;
+    font-size: 12px;
+    line-height: 1.2;
+    letter-spacing: 0.04em;
+    text-decoration-line: underline;
+}
+
+.checkbox-in-label-span {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        border 250ms cubic-bezier(0.4, 0, 0.2, 1),
+        fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.checkbox-input:checked {
+    background-color: #404bbf;
+    fill: #F4F4FD;
+}
+
+.modal-form-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    padding: 16px 32px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+    color: #FFFFFF;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    margin: 0 auto;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-form-button:hover,
+.modal-form-button:focus {
+    background-color: #404BBF;
+}
